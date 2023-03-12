@@ -45,7 +45,7 @@ const fecthData = async (config) => {
       const res = await axios(config);
       return res.data;
     } catch (error) {
-      throw Error("data is not fetched");
+      throw Error("Data is not Fetched");
     }
   };
   
